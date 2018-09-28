@@ -77,8 +77,8 @@ for (var i = 0; i < 100; i++){
     var radius = 30;
     var x = Math.random() * (innerWidth - radius * 2) + radius ;
     var y = Math.random() * (innerHeight - radius * 2) + radius;
-    var dx = (Math.random() - 0.5) * 4;
-    var dy = (Math.random() - 0.5) * 4;
+    var dx = (Math.random() - 0.5) * 8;
+    var dy = (Math.random() - 0.5) * 8;
     circleArray.push(new Circle(x, y, dx, dy, radius));   
 }
 
